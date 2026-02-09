@@ -2,10 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+
     <title>Leaf & Bean Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <header>
+    <header class="site-header">
     <h1>🍃 Leaf & Bean Café</h1>
     <nav>
         <a href="#drinkmenu">เมนู</a>
@@ -15,14 +22,14 @@
 </header>
     <main>
     <!-- ส่วน Hero -->
-    <section>
+    <section class="hero-section">
         <h2>กาแฟดี ๆ เริ่มต้นที่นี่</h2>
         <p>คัดสรรเมล็ดกาแฟคุณภาพจากดอยสูง ชงสดใหม่ทุกแก้ว</p>
     </section>
 
     <!-- ส่วนเมนู -->
     <section id="menu">
-        <h2>เมนูแนะนำ</h2>
+        <h2 class="section-title">เมนูแนะนำ</h2>
         <div class="menu-grid">
     <!-- การ์ดเมนูที่ 1 -->
     <div class="card">
@@ -31,7 +38,7 @@
         <p class="price">ราคา: <span>฿55</span></p>
     </div>
     <!-- การ์ดที่ 2 -->
-    <div class="card">
+    <div class="card featured">
         <h3 class="card-title">🍵 Matcha Latte <span>BEST SELLER</span></h3>
         <p class="card-desc">ชาเขียวเกรดพรีเมียมจากอุจิ</p>
         <p class="price">฿75</p>
@@ -47,7 +54,7 @@
 
     <!-- เรื่องราวร้าน — เนื้อหาอิสระ ใช้ <article> -->
     <article id="about">
-        <h2>เรื่องราวของเรา</h2>
+        <h2 class="section-title">เรื่องราวของเรา</h2>
         <p>Leaf & Bean Café เกิดจากความรักในกาแฟ...</p>
         <figure>
             <img src="cafe-interior.jpg" alt="บรรยากาศภายในร้าน">
@@ -55,14 +62,14 @@
         </figure>
     </article>
 </main>
-<aside>
+<aside class="sidebar">
     <h3>🕐 เวลาเปิด-ปิด</h3>
     <p>จันทร์ - ศุกร์: 7:00 - 20:00</p>
     <p>เสาร์ - อาทิตย์: 8:00 - 21:00</p>
     <p>สถานะ: <span>เปิดอยู่</span></p>
 </aside>
 
-<footer>
+<footer id="contact">
     <p>&copy; 2026 Leaf & Bean Café</p>
     <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
 </footer>
